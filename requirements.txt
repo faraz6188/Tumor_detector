@@ -1,5 +1,5 @@
 streamlit
-intel-tensorflow
+tensorflow
 joblib
 pandas
 scikit-learn
