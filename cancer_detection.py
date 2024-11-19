@@ -2,6 +2,9 @@ import streamlit as st
 import joblib
 import tensorflow as tf
 import pandas as pd
+
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # Load the scaler and the Keras model
 scaler = joblib.load('scaler.h5')  # Ensure this is the correct path to your scaler file
 model = tf.keras.models.load_model('cancer_prediction_model.h5')  # Ensure this is the correct path to your model file
