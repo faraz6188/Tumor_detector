@@ -55,6 +55,8 @@ with st.sidebar:
 
 # Feature Input Section
 st.subheader("Enter Tumor Features 📝")
+
+st.write("Note: Enter valid details otherwise will not work")
 col1, col2, col3 = st.columns(3)
 
 # Feature inputs
